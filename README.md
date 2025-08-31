@@ -27,7 +27,7 @@ Flyatcsim 付费扇区由 Flyatcsim Sector Studio（以下简称“本工作室�
 
 - **电子邮件**：Flyatcsimsector@163.com
 - **QQ**：3376456371
-- **Github仓库**：https://github.com/Flyatcsim-Sector-Studio/EuroScope-Ground-Sector-Collection/issues/new/choose
+- **Github仓库**：https://github.com/Flyatcsim-Sector-Studio/EuroScope-Ground-Sector-Collection/issues/new?template=kml_commit.yml
 
 
 
@@ -134,7 +134,7 @@ Flyatcsim 付费扇区由 Flyatcsim Sector Studio（以下简称“本工作室�
 >
 > 此列表将不定时更新，最新数据详见：
 >
-> https://github.com/Flyatcsim-Sector-Studio/EuroScope-Ground-Sector-Collection/issues/1
+> [https://github.com/Flyatcsim-Sector-Studio/EuroScope-Ground-Sector-Collection/issues/1](https://github.com/Flyatcsim-Sector-Studio/EuroScope-Ground-Sector-Collection/issues/1)
 
 您可以随意挑选一个未打钩的机场进行制作。您可开启一个issue或告知我们，我们在列表中显示“制作中”，以避免重复制作
 
@@ -148,18 +148,19 @@ Flyatcsim 付费扇区由 Flyatcsim Sector Studio（以下简称“本工作室�
 
 #### 4.3.1 准备工作
 
-1. 打开浏览器（推荐使用Google Chrome），在网址栏输入：https://earth.google.com/web/
+1. 打开浏览器（推荐使用Google Chrome），在网址栏输入：[https://earth.google.com/web/](https://earth.google.com/web/)
 2. 新建项目或按Ctrl + J，将“无标题项目”改为机场的ICAO，例如：ZBAA
 3. 在“搜索Google 地球”中，可输入机场ICAO，例如：ZBAA，视野将会自动跳转至该机场
 
-   > [!NOTE]
-   > 在制作小机场的地面扇时，由于Google Earth数据可能产生偏移/过期，我们强烈推荐使用EAIP AD中的机场基准点坐标搜索，下面以ZBAA机场为例：
-   >
-   > | ZBAA AD 2.2 机场地理位置和管理资料 Aerodrome geographical and administrative data |                                                              |                                            |
-   > | :----------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------ |
-   > | 1                                                            | 机场基准点坐标及其在机场的位置 ARP coordinates and site at AD | N40°04.4′ E116°35.9′ Center of RWY 18L/36R |
-   >
-   > 在Google Earth搜索框中输入“N40°04.4′ E116°35.9′ ”，也可跳转至该机场
+> [!NOTE]
+>
+> 在制作小机场的地面扇时，由于Google Earth数据可能产生偏移/过期，我们强烈推荐使用EAIP AD中的机场基准点坐标搜索，下面以ZBAA机场为例：
+>
+> | ZBAA AD 2.2 机场地理位置和管理资料 Aerodrome geographical and administrative data |                                                              |                                            |
+> | :----------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------ |
+> | 1                                                            | 机场基准点坐标及其在机场的位置 ARP coordinates and site at AD | N40°04.4′ E116°35.9′ Center of RWY 18L/36R |
+>
+> 在Google Earth搜索框中输入“N40°04.4′ E116°35.9′ ”，也可跳转至该机场
 
 
 
@@ -197,7 +198,7 @@ Flyatcsim 付费扇区由 Flyatcsim Sector Studio（以下简称“本工作室�
 
 ![image-20250831173247839](./assets/image-20250831173247839.png)
 
-按照[4.3.2](#4.3.2 跑道白色标志的制作)同理，构成外轮廓即可
+按照[4.3.2](#4.3.2 跑道白色标志的制作)同理，勾外轮廓即可
 
 ---
 
@@ -207,4 +208,4 @@ Flyatcsim 付费扇区由 Flyatcsim Sector Studio（以下简称“本工作室�
 
 提交文件仅支持`机场ICAO.kml`
 
-推荐在：，提交
+推荐在：https://github.com/Flyatcsim-Sector-Studio/EuroScope-Ground-Sector-Collection/issues/new?template=kml_commit.yml，提交
