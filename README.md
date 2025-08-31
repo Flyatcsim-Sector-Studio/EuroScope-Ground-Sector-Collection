@@ -208,4 +208,4 @@ Flyatcsim 付费扇区由 Flyatcsim Sector Studio（以下简称“本工作室�
 
 提交文件仅支持`机场ICAO.kml`
 
-推荐在：https://github.com/Flyatcsim-Sector-Studio/EuroScope-Ground-Sector-Collection/issues/new?template=kml_commit.yml，提交
+推荐在：[https://github.com/Flyatcsim-Sector-Studio/EuroScope-Ground-Sector-Collection/issues/new?template=kml_commit.yml](https://github.com/Flyatcsim-Sector-Studio/EuroScope-Ground-Sector-Collection/issues/new?template=kml_commit.yml)，提交
