@@ -1,0 +1,26 @@
+name: Auto Comment on KML Issue
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  comment:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Add comment to new issue
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const issue = context.payload.issue;
+            // 只处理带 kml 标签的 Issue
+            const hasKmlLabel = issue.labels.some(l => l.name.toLowerCase() === "kml");
+            if (hasKmlLabel) {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issue.number,
+                body: `👋 感谢提交！@supermastergui 已收到通知，我们会尽快处理此 KML 文件。`
+              });
+            }
