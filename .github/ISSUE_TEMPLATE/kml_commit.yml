@@ -30,14 +30,32 @@ body:
     validations:
       required: true
 
-  - type: input
-    id: contact
+  - type: textarea
+    id: kml_file
     attributes:
-      label: "您的联系方式"
-      description: "QQ 或 邮箱，任选一个即可"
-      placeholder: "QQ: 123456 或 邮箱: example@mail.com"
+      label: "KML 文件上传 / 链接"
+      description: |
+        请将您的 `.kml` 文件 **直接拖拽上传到此 Issue**（GitHub 会自动生成文件链接），
+        或者粘贴网盘 / 仓库链接。
+      placeholder: "请上传或粘贴文件链接"
     validations:
       required: true
+
+  - 输入: input
+    id: contact_qq
+    attributes:
+      label: "QQ（可选）"
+      placeholder: "例如：123456"
+    validations:
+      required: false
+
+  - 输入: input
+    id: contact_email
+    attributes:
+      label: "邮箱（可选）"
+      placeholder: "例如：example@mail.com"
+    validations:
+      required: false
 
   - type: checkboxes
     id: agreement
