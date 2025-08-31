@@ -33,15 +33,15 @@ body:
   - type: textarea
     id: "kml_file"
     attributes:
-      label: "KML 文件上传 / 链接"
+      label: "KML 文件上传"
       description: |
-        请将您的 `.kml` 文件 **直接拖拽上传到此 Issue**（GitHub 会自动生成文件链接），
-        或者粘贴网盘 / 仓库链接。
-      placeholder: "请上传或粘贴文件链接"
+        👉 请将您的 `.kml` 文件 **直接拖拽到此区域**，GitHub 会自动上传为附件并生成下载链接。  
+        （也可粘贴网盘或仓库链接）
+      placeholder: "请拖拽 .kml 文件到这里，或粘贴下载链接"
     validations:
       required: true
 
-  - 输入: input
+  - type: input
     id: "contact_qq"
     attributes:
       label: "QQ（可选）"
@@ -49,7 +49,7 @@ body:
     validations:
       required: false
 
-  - 输入: input
+  - type: input
     id: "contact_email"
     attributes:
       label: "邮箱（可选）"
