@@ -1,7 +1,9 @@
 name: "Kml 提交"
 description: "提交您制作的 KML 文件，用于 EuroScope 地面扇区"
 title: "[KML 提交] <请输入 ICAO 代码>"
-labels: ["KML 提交"]
+labels: ["kml"]
+assignees:
+  - supermastergui
 body:
   - type: input
     id: "icao"
@@ -63,7 +65,8 @@ body:
     attributes:
       label: "我的承诺"
       description: |
-        请您在提交前仔细阅读以下条款，并勾选确认：
+        请您在提交前仔细阅读以下条款，并勾选确认：  
+        提交后将自动通知 @supermastergui。
       options:
         - label: "根据《中华人民共和国著作权法》第二十五条相关规定，我在提交作品前，已向本工作室提供明确报价（亦可选择无偿）。一旦提交并经本工作室采纳，我提供的 **EuroScope 地面扇区及其相关附属文件的全部著作权将归该工作室所有**。"
           required: true
