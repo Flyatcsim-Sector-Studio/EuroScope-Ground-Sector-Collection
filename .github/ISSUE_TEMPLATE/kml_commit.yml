@@ -1,0 +1,52 @@
+name: "Kml 提交"
+description: "提交您制作的 KML 文件，用于 EuroScope 地面扇区"
+title: "[KML 提交] <请输入 ICAO 代码>"
+labels: ["KML 提交"]
+body:
+  - type: input
+    id: icao
+    attributes:
+      label: "您制作的机场 ICAO"
+      description: "例如：ZBAA"
+      placeholder: "ZBAA"
+    validations:
+      required: true
+
+  - type: input
+    id: price
+    attributes:
+      label: "您的报价"
+      description: "例如：无偿"
+      placeholder: "无偿"
+    validations:
+      required: true
+
+  - type: input
+    id: filename
+    attributes:
+      label: "您的文件名称"
+      description: "例如：ZBAA.kml"
+      placeholder: "ZBAA.kml"
+    validations:
+      required: true
+
+  - type: input
+    id: contact
+    attributes:
+      label: "您的联系方式"
+      description: "QQ 或 邮箱，任选一个即可"
+      placeholder: "QQ: 123456 或 邮箱: example@mail.com"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: agreement
+    attributes:
+      label: "我的承诺"
+      description: |
+        请您在提交前仔细阅读以下条款，并勾选确认：
+      options:
+        - label: "根据《中华人民共和国著作权法》第二十五条相关规定，我在提交作品前，已向本工作室提供明确报价（亦可选择无偿）。一旦提交并经本工作室采纳，我提供的 **EuroScope 地面扇区及其相关附属文件的全部著作权将归该工作室所有**。"
+          required: true
+        - label: "未经本工作室许可，我不得以任何形式将该作品或其衍生内容对外传播，亦不得实施任何可能损害本工作室利益的行为。"
+          required: true
