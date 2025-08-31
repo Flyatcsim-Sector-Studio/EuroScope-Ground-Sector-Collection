@@ -33,11 +33,12 @@ body:
   - type: textarea
     id: "kml_file"
     attributes:
-      label: "KML 文件上传"
+      label: "KML 文件上传 / 链接"
       description: |
-        👉 请将您的 `.kml` 文件 **直接拖拽到此区域**，GitHub 会自动上传为附件并生成下载链接。  
-        （也可粘贴网盘或仓库链接）
-      placeholder: "请拖拽 .kml 文件到这里，或粘贴下载链接"
+        ⚠️ GitHub 不支持直接上传 `.kml` 文件。  
+        👉 请将 `.kml` 文件 **压缩为 `.zip, .gz, .tgz`** 后拖拽到此区域，GitHub 会自动生成下载链接。  
+        或者粘贴网盘 / 仓库链接。
+      placeholder: "请上传 .zip 压缩包，或粘贴下载链接"
     validations:
       required: true
 
